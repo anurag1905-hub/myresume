@@ -102,6 +102,101 @@ body{
     margin:auto;
     margin-top:1rem;
     text-align:justify;
-    color:blue;
 }
 
+/*Section Classes*/
+section{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    align-items:center;
+}
+
+section:nth-child(2n){
+    background-color:#9e9b9b29
+}
+
+section:nth-child(2n+1){
+    background-color:white;
+}
+
+/*Skills Section*/
+
+#skills {
+  margin-top:2.5rem;
+}
+
+#skill-header{
+    margin:2rem;
+}
+
+#skill-header span{
+    font-size:2rem;
+    padding:0.5rem;
+    color:blue;
+    font-weight:400;
+}
+
+.skills-display {
+    width: 75%;
+    padding: 1rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skill-progress {
+    width: 15rem;
+    height:2.2rem;
+    background-color:lightgray;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+    margin: 2rem;
+    overflow: hidden;
+}
+
+.skill-progress > div {
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 1px 1px 5px 2px #989882;
+}
+
+.skill-name span {
+    color: white;
+    font-size: 1rem;
+    margin-left: 1rem;
+    vertical-align: middle;
+}
+
+/*Percentage Classes*/
+.eighty-five-percent {
+    height:inherit;
+    width:85%;
+}
+
+.eighty-percent {
+    height:inherit;
+    width:80%;
+}
+
+.fifty-percent{
+    height:inherit;
+    width:90%;
+}
+
+/*Setting Background Color*/
+.mb-blue{
+    background-color:#2857a4;
+}
+
+.mb-orange{
+    background-color:#ec4d1c;
+}
+
+.mb-teal {
+    background-color:#0b8176;
+}
+
+.mb-light-purple {
+    background-color:#93738c;
+}
