@@ -1,0 +1,107 @@
+html {
+    font-size:12px;
+}
+/*Body Section*/
+
+body{
+    margin:0px;
+}
+
+/*Header Section*/
+
+#header{
+    background-image:url(image/macbook_mouse.jpg);
+    height:75vh;
+    width:100vw;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position:center;
+    opacity:0.8;
+    background-size:cover;
+}
+#header_navigation ul{
+   margin:0px;
+   padding:0px;
+   text-align:center;
+}
+
+#header_navigation li {
+   list-style-type:none;
+   display:inline-block;
+   margin-top:1rem;
+}
+
+#header_navigation ul li a{
+    text-decoration:none;
+    font-size:1.5rem;
+    margin-left:2rem;
+    color:white;
+}
+
+#header_navigation ul li a:hover{
+    color:lightgray;
+    text-decoration:underline;
+}
+
+#header_navigation ul li a{
+    transition:color 0.5s,text-decoration 4s;
+}
+
+/*Name and Social Icons*/
+
+#myname {
+    text-transform:uppercase;
+    color:white;
+    font-size:3rem;
+    margin-top:25vh;
+    margin-bottom:1rem;
+    text-align:center;
+    transition: color 0.5s;
+}
+
+#myname:hover{
+    color:lightgray;
+}
+
+#social_icons{
+    text-align:center;
+}
+
+#social_icons a{
+    text-align:center;
+    color:white;
+    font-size:1.5rem;
+    padding:0.5rem;
+}
+
+#social_icons a:hover{
+    border-radius:50%;
+    box-shadow:0px 0px 6px 3px lightgray;
+}
+
+/*About Section*/
+#about{
+    height:auto;
+    position:relative;
+}
+
+#about #myimage{
+    height:16.5rem;
+    width:16.5rem;
+    display:block;
+    margin:auto;
+    border-radius:50%;
+    margin-top:-8rem;
+    border:2px solid lightgray;
+    box-shadow:0px 0px 6px 2px lightgray;
+}
+
+#about #about-para{
+    font-size:1.8rem;
+    width:70%;
+    margin:auto;
+    margin-top:1rem;
+    text-align:justify;
+    color:blue;
+}
+
