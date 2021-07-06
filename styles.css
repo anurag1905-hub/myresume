@@ -254,3 +254,117 @@ section:nth-child(2n+1){
     opacity:1;
     background-color:rgba(108, 122, 137, 0.7);
 }
+
+/*Contact Section*/
+#contact{
+    width:100%;
+    height:auto;
+    background:linear-gradient(90deg,#2857a4 60%,#403066);
+}
+
+#contact-header{
+    color:white;
+    font-size:2.9rem;
+    font-weight:530;
+    margin-top:1.5rem;
+    margin-bottom:3.5rem;
+}
+
+#flex_user{
+    height:auto;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+/*Contact Section's Other Info Section*/
+
+#other-info{
+    box-sizing:border-box;
+    width:35%;
+    margin:auto;
+}
+
+#other-info #connect span{
+    display:inline-block;
+    color:white;
+    font-size:1.8rem;
+    font-weight:550;
+}
+
+
+#other-info #connect #connect-text{
+    display:inline-block;
+    color:white;
+    font-size:1.2rem;
+    text-align:justify;
+}
+
+#contact #myaddress p{
+    color:white;
+    font-size:1.5rem;
+    font-weight:550;
+    display:inline-block;
+}
+
+#contact #myaddress #contact-location span{
+    color:white;
+    font-size:1.5rem;
+    display:inline-block;
+    margin-bottom:1rem;
+}
+
+#contact #myaddress #contact-mobile span{
+    color:white;
+    font-size:1.5rem;
+    display:inline-block;
+    margin-bottom:1rem;
+}
+
+#contact #myaddress #contact-email span{
+    color:white;
+    font-size:1.5rem;
+    display:inline-block;
+    margin-bottom:1rem;
+}
+
+/*Contact Section's message-section*/
+#message-section{
+    box-sizing:border-box;
+    width:35%;
+    margin:auto;
+}
+
+#contact input[type="text"]{
+    border:0;
+    outline:0;
+    border-bottom:2px solid white;
+    background-color:transparent;
+    display:inline-block;
+    margin-bottom:2.7rem;
+    width:100%;
+    color:white;
+    height:2rem;
+    padding-left:0.4rem;
+}
+
+#contact input[type="submit"]{
+    color:white;
+    background-color:transparent;
+    border:2px solid white;
+    padding:0.8rem 0.8rem;
+    font-weight:550;
+    display:inline-block;
+}
+
+#contact #message-submit{
+    margin:auto;
+    margin-top:1rem;
+    display:block;
+}
+
+#contact-icons{
+    margin-top:3rem;
+    margin-bottom:3rem;
+}
