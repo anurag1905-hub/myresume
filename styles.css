@@ -200,3 +200,54 @@ section:nth-child(2n+1){
 .mb-light-purple {
     background-color:#93738c;
 }
+
+
+/*Portfolio Section*/
+#portfolio-header span{
+    color:blue;
+    font-size:3rem;
+    display:inline-block;
+    margin-top:1rem;
+    margin-bottom:2rem;
+}
+
+.portfolio-images{
+    display:flex;
+    width:90%;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.wrapper img{
+    width:25rem;
+    height:20rem;
+    display:inline-block;
+}
+
+.wrapper{
+    position:relative;
+    width:25rem;
+    height:20rem;
+    margin-bottom:0.8rem;
+}
+
+.img_description{
+    position:absolute;
+    top:-2rem;
+    bottom:-2rem;
+    left:0;
+    right:0;
+    color:white;
+    visibility:hidden;
+    opacity:0;
+    transition: opacity .2s,visibility .2s;
+    padding-left:3rem;
+    padding-top:3.5rem;
+    font-size:2rem;
+}
+
+.wrapper:hover .img_description{
+    visibility:visible;
+    opacity:1;
+    background-color:rgba(108, 122, 137, 0.7);
+}
