@@ -240,12 +240,15 @@ section:nth-child(2n+1){
     color:white;
     visibility:hidden;
     opacity:0;
-    transition: opacity .2s,visibility .2s;
     padding-left:3rem;
     padding-top:3.5rem;
     font-size:2rem;
+    transition: all 0.5s ease-in-out;
 }
 
+.wrapper:hover {
+    background-color: #80808078; 
+}
 .wrapper:hover .img_description{
     visibility:visible;
     opacity:1;
