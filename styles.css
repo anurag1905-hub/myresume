@@ -364,7 +364,127 @@ section:nth-child(2n+1){
     display:block;
 }
 
+#contact #message-submit:hover{
+    background-color: white;
+    color:blue;
+}
+
 #contact-icons{
     margin-top:3rem;
     margin-bottom:3rem;
+}
+
+/*Experience Section*/
+
+#work_experience_header span{
+    color:blue;
+    font-size:2.5rem;
+}
+
+#work_experience_header{
+    margin-top:1.8rem;
+    margin-bottom:5rem;
+}
+
+.timeline{
+    position:relative;
+    width:75%;
+}
+
+.timeline_box{
+    position:relative;
+    width:40%;
+    left:5%;
+    min-height:150px;
+    text-align:right;
+    padding:5px;
+}
+
+.timeline_box::after{
+    content:'';
+    position:absolute;
+    width:15px;
+    height:15px;
+    background-color:lightgray;
+    top:25%;
+    border-radius:50%;
+    z-index:1;
+}
+
+.timeline_box:nth-child(2n){
+    left:53%;
+}
+
+.timeline_box:nth-child(2n+1)::after{
+    right:-11.8%;
+}
+
+.timeline_box:nth-child(2n)::after{
+    left:-9%;
+}
+
+.timeline_divider{
+    position:absolute;
+    height:66%;
+    width:0;
+    border:1px dashed #0096fa6b;
+    top:10%;
+    left:50%;
+}
+
+.timeline_traveller{
+    position:sticky;
+    top:135px;
+    z-index:2;
+}
+
+.timeline_divider i{
+    transform:rotate(90deg);
+    margin-top:-35px;
+    display:block;
+    color:#2857a4;
+    font-size:2rem;
+}
+
+.timeline_container{
+    padding:8px;
+}
+
+.timeline_logo{
+    position:absolute;
+    width:50px;
+    overflow:hidden;
+}
+
+.timeline_logo > img{
+    width:100%;
+}
+
+.experience-designation{
+    font-size:1.4rem;
+    margin:0px;
+    color:blue;
+}
+
+.experience-company-name{
+    margin:5px 0 0;
+    color:#eb822d;
+    font-weight:400;
+    font-size:1.2rem;
+}
+
+.experience-duration{
+    color:#9e9b9b;
+    font-weight:100;
+    color:grey;
+    margin:0px;
+    font-size:1rem;
+}
+
+.experience-description{
+    font-size:14px;
+    padding:2px;
+    color:grey;
+    line-height:20px;
+    text-align:justify;
 }
