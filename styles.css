@@ -1,5 +1,5 @@
 html {
-    font-size:12px;
+    font-size:1vw;
 }
 /*Body Section*/
 
@@ -452,7 +452,7 @@ section:nth-child(2n+1){
 
 .timeline_logo{
     position:absolute;
-    width:50px;
+    width:4rem;
     overflow:hidden;
 }
 
