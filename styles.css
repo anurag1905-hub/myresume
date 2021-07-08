@@ -488,3 +488,43 @@ section:nth-child(2n+1){
     line-height:20px;
     text-align:justify;
 }
+
+/*Education Section*/
+
+#education_header span{
+    color:blue;
+    display:inline-block;
+    font-size:3rem;
+    padding:0.5rem;
+    margin-top:1.5rem;
+    margin-bottom:3rem;
+}
+
+.education-degree{
+    font-size:1.4rem;
+    margin:0px;
+    color:blue;
+}
+
+.education-institute-name{
+    margin:5px 0 0;
+    color:#eb822d;
+    font-weight:400;
+    font-size:1.2rem;
+}
+
+.education-duration{
+    color:#9e9b9b;
+    font-weight:100;
+    color:grey;
+    margin:0px;
+    font-size:1rem;
+}
+
+.education-description{
+    font-size:14px;
+    padding:2px;
+    color:grey;
+    line-height:20px;
+    text-align:justify;
+}
