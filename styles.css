@@ -105,6 +105,7 @@ body{
         height:auto;
         width:200px;
         background-color:darkgray;
+        transition: all 0s ease-in-out;
     }
     
     #responsive-container .cross{
