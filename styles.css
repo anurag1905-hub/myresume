@@ -9,6 +9,10 @@ body{
 
 /*Header Section*/
 
+.responsive-wrapper{
+    display:none;
+}
+
 #header{
     background-image:url(image/macbook_mouse.jpg);
     height:75vh;
@@ -45,6 +49,89 @@ body{
 
 #header_navigation ul li a{
     transition:color 0.5s,text-decoration 4s;
+}
+
+@media screen and (max-width:528px){
+    #header_navigation ul li a{
+        display:none;
+    }
+
+    #header{
+        height:100vh;
+    }
+
+    .header_navigation{
+        display:none;
+    }
+
+    .responsive-wrapper{
+        display:block;
+        margin-bottom:25rem;
+        margin-left:0.5rem;
+    }
+
+    body{
+        margin:0px;
+    }
+    
+    .responsive-navigation-menu i{
+        display:inline-block;
+        color:blue;
+        font-size:2rem;
+        margin-left:0.1rem;
+    }
+    
+    .responsive-navigation-menu i:hover{
+        color:white;
+    }
+    
+    .responsive-navigation-menu{
+        position:relative;
+    }
+    
+    #responsive-container{
+        position:absolute;
+        top:0;
+        left:0;
+        width:0;
+        height:0;
+        overflow:hidden;
+        
+    }
+    
+    #responsive-container:target{
+        top:10%;
+        left:28%;
+        height:auto;
+        width:200px;
+        background-color:darkgray;
+    }
+    
+    #responsive-container .cross{
+        display:inline-block;
+        color:white;
+        font-size:2rem;
+        margin-left:0.1rem;
+        text-decoration:none;
+        color:blue;
+    }
+    #responsive-container .responsive-navigation a{
+        background-color:green;
+        text-decoration:none;
+        display:block;
+        font-size:2rem;
+        color:white;
+        border-bottom:1px solid black;
+        text-align:center;
+    }
+    
+    #responsive-container .responsive-navigation a:hover{
+        color:lightgrey;
+    }
+    
+    #responsive-container .cross:hover{
+        color:white;
+    }
 }
 
 /*Name and Social Icons*/
