@@ -102,10 +102,9 @@ body{
         transform: translate(-50%, 0);
         left:50%;
         top:10%;
-        height:auto;
-        width:200px;
+        height:19rem;
+        width:15rem;
         background-color:darkgray;
-        transition: all 0s ease-in-out;
     }
     
     #responsive-container .cross{
