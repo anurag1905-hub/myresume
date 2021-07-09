@@ -105,9 +105,14 @@ body{
         transform: translate(-50%, 0);
         left:50%;
         top:10%;
-        height:19.26rem;
+        height:19.8rem;
         width:15rem;
         background-color:darkgray;
+
+    }
+
+    .responsive-navigation{
+        height:2.5rem;
     }
     
     #responsive-container .cross{
@@ -130,7 +135,7 @@ body{
     }
     
     #responsive-container .responsive-navigation a:hover{
-        color:lightgrey;
+        color:darkgrey;
     }
     
     #responsive-container .cross:hover{
