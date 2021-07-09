@@ -99,8 +99,9 @@ body{
     }
     
     #responsive-container:target{
+        transform: translate(-50%, 0);
+        left:50%;
         top:10%;
-        left:28%;
         height:auto;
         width:200px;
         background-color:darkgray;
