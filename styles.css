@@ -1,5 +1,5 @@
 html {
-    font-size:1vw;
+    font-size:15px;
 }
 /*Body Section*/
 
@@ -374,6 +374,18 @@ section:nth-child(2n+1){
     margin-bottom:3rem;
 }
 
+@media screen and (max-width:728px){
+    #other-info{
+        width:80%;
+        margin-top:10rem;
+        margin-bottom:5rem;
+    }
+
+    #message-section{
+        width:80%;
+    }
+}
+
 /*Experience Section*/
 
 #work_experience_header span{
@@ -430,6 +442,26 @@ section:nth-child(2n+1){
     border:1px dashed #0096fa6b;
     top:10%;
     left:50%;
+}
+
+@media screen and (max-width:768px){
+    .timeline_divider{
+        left:5%;
+    }
+
+    .timeline_box{
+        left:12% !important;
+        width:80%;
+    }
+
+    .timeline_box::after{
+        left:-10.5% !important;
+    }
+
+    html{
+        font-size:15px;
+    }
+
 }
 
 .timeline_traveller{
